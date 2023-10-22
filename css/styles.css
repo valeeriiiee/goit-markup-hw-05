@@ -334,11 +334,37 @@ a[href="tel:+11(000)111-11-11"]:focus {
 .service {
   border: 1px solid var(--CORNFLOWER);
   background-color: var(--WHITE);
+  overflow: hidden;
 }
 .service:hover {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.service:hover .service-image-caption {
+  opacity: 1;
+  transform: translateY(0);
+}
+.service-img {
+  width: 100%;
+  display: block;
+}
+.service-image {
+  position: relative;
+  overflow: hidden;
+}
+.service-image-caption {
+  position: absolute;
+  background-color: rgba(77, 90, 229, 0.9);
+  color: var(--WHITE);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  padding: 40px 32px;
+  transform: translateY(100%);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .services-menu-title,
 .services-menu-description {
