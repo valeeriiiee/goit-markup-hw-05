@@ -80,13 +80,13 @@ body {
   color: var(--NAVY-BLUE);
   letter-spacing: 0.32px;
 }
-.header-link:hover {
+/* /* .header-link:hover {
   color: var(--IRIS);
-}
-.header-link:focus {
+} */
+/* .header-link:focus {
   color: var(--IRIS);
-}
-a[href="mailto:info@devstudio.com"] {
+} */
+*/ a[href="mailto:info@devstudio.com"] {
   font-size: 16px;
   color: var(--SLATE);
   font-weight: 400;
@@ -109,6 +109,17 @@ a[href="mailto:info@devstudio.com"]:focus {
 }
 a[href="tel:+11(000)111-11-11"]:focus {
   color: var(--IRIS);
+}
+.active {
+  color: var(--OCEAN);
+}
+.active::after {
+  content: " ";
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: var(--IRIS);
 }
 /* END OF HEADER STYLES */
 /* FIRST SECTION STYLES */
