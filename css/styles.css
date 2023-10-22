@@ -331,11 +331,11 @@ a[href="tel:+11(000)111-11-11"]:focus {
   gap: 24px;
   flex-wrap: wrap;
 }
-.services-menu-item {
+.service {
   border: 1px solid var(--CORNFLOWER);
   background-color: var(--WHITE);
 }
-.services-menu-item:hover {
+.service:hover {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
