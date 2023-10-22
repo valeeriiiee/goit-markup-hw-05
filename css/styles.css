@@ -80,13 +80,7 @@ body {
   color: var(--NAVY-BLUE);
   letter-spacing: 0.32px;
 }
-/* /* .header-link:hover {
-  color: var(--IRIS);
-} */
-/* .header-link:focus {
-  color: var(--IRIS);
-} */
-*/ a[href="mailto:info@devstudio.com"] {
+a[href="mailto:info@devstudio.com"] {
   font-size: 16px;
   color: var(--SLATE);
   font-weight: 400;
